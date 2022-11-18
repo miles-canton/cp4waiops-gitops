@@ -12,7 +12,7 @@ spec:
   storageClassLargeBlock: {{.Values.spec.storageClassLargeBlock}}
   license:
     accept: true
-  {{- if .Values.ROKS }}
+  {{- if .Values.spec.isROKS }}
   imagePullSecret: ibm-entitlement-key
   {{- end }}
   pakModules:

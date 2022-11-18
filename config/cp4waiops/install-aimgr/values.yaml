@@ -30,6 +30,9 @@ spec:
 
   ## is ocp SNO? if yes, will adjust redis 
   # isSNO: false
+  
+  ## is ocp ROKS? if yes, create and use ibm-entitlement-key secret 
+  isROKS: ture
 
   ## If the storage provider for your deployment is Red Hat OpenShift Data Foundation, 
   ## previously called Red Hat OpenShift Container Storage, then set this to ocs-storagecluster-ceph-rbd
